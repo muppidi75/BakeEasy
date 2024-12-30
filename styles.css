@@ -65,5 +65,28 @@ body {
     transform: scale(1.05);
     background-color:rgb(137,78,63); ;
   }
-  
+  /*styling search box*/
+  .search-container {
+    position: relative;
+    width: 150px;  /* You can adjust the width as needed */
+}
+
+.search-box {
+    width: 100%;
+    padding: 5px 5px 5px 5px;  /* Adds space for the icon */
+    font-size: 12px;  /* Adjusts text size */
+    border: 1px solid rgb(137,78,63);
+    border-radius: 15px;  /* Rounded corners */
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 2px;  /* Space from the right edge */
+    transform: translateY(-50%);  /* Vertically center the icon */
+    font-size: 16px;  /* Adjust icon size */
+    color:rgb(137,78,63);
+    pointer-events: none;  /* Prevents the icon from blocking input */
+    user-select: none;
+}
   
