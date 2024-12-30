@@ -124,7 +124,7 @@ body {
 .right-items h6, .right-items .search-container, .right-items,.textarea{
   margin: 0;
   padding: 8px;
-  font-size: 10px;
+  font-size: 13px;
 }
 /*div 4*/
 .like
@@ -134,13 +134,14 @@ body {
   align-items: center;
   text-align:center;
   padding:10px; 
-  border: 1px solid rgb(137,78,63);
+  border-bottom: 1px solid rgb(137,78,63);
 }
 .text-like
 {
   font-size: 20px;
   font-family:'Pacifico', cursive;
   color: rgb(72, 23, 23) ;
+  -webkit-text-stroke: 1px rgb(72, 23, 23) ;
 }
 .contact-section{
   background-color:rgb(238,191,194,0.5);
@@ -200,6 +201,7 @@ body {
 .item-cost {
   font-weight: bold; /* Makes the cost stand out */
   color:rgb(72, 23, 23,0.8) ;
+  font-family:'Dancing Script', cursive;
 }
 .item-details {
   margin-top: 5px; /* Space between image and text */
