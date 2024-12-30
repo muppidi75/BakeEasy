@@ -17,9 +17,9 @@ body {
     display: flex;
     justify-content: space-between; 
     align-items: center;         
-    margin: 10px auto; 
-    border-top: 1px solid  rgb(240,215,167,0.8) ; 
-    border-bottom: 1px solid rgb(240,215,167,0.8);  
+    /* margin: 10px auto;  */
+    border-top: 1px solid  rgb(72, 23, 23,0.8) ; 
+    border-bottom: 1px solid  rgb(72, 23, 23,0.8);  
              
 }
  /*changes in the title bakeeasy*/
