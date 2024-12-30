@@ -38,6 +38,15 @@ body {
   border-top: 2px solid rgb(72, 23, 23);   /* Top border */
   border-bottom: 1px solid rgb(72, 23, 23); /* Bottom border */
 }
+.phone
+{
+  font-size:10px;
+}
+.bottom-title
+{
+  height:80px;
+  border-radius:300px;
+}
 
 /* Add margin or padding to the section below to avoid overlap */
 .brown {
@@ -116,7 +125,7 @@ body {
 }
 
 /*arrangement of div*/
-.right-items {
+.right-items{
   display: flex;
   gap: 10px; 
   align-items: center;
@@ -133,7 +142,7 @@ body {
   justify-content:center;
   align-items: center;
   text-align:center;
-  padding:10px; 
+  padding:7px; 
   border-bottom: 1px solid rgb(137,78,63);
 }
 .text-like
@@ -148,7 +157,20 @@ body {
   justify-content:center;
   align-items: center;
   text-align:center;
-  padding:10px; 
+  padding:1px; 
+  display:flex;
+  gap:100px;
+  color: rgb(72, 23, 23) ;
+  font-family:'Pacifico', cursive;
+}
+.contactus-section
+{
+  gap:2px;
+  padding:none;
+}
+.location
+{
+  color: rgb(72, 23, 23) ;;
 }
 
 /*food section edits*/
