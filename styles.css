@@ -33,6 +33,7 @@ body {
  .stitle
  {
    background-color:rgb(156,99,79);
+   border-radius: 1px;
  }
  .mini-caption{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -55,7 +56,7 @@ body {
   /*styling button*/
   .button-style
   {
-    border-radius: 30px; 
+    border-radius: 20px; 
     color:white;
     background-color:rgb(137,78,63) ;
     font-family:'Times New Roman', Times, serif;
@@ -66,17 +67,17 @@ body {
     background-color:rgb(137,78,63); ;
   }
   /*styling search box*/
+
   .search-container {
     position: relative;
-    width: 150px;  /* You can adjust the width as needed */
+    width: 150px; 
 }
-
 .search-box {
     width: 100%;
-    padding: 5px 5px 5px 5px;  /* Adds space for the icon */
-    font-size: 12px;  /* Adjusts text size */
+    padding: 5px 5px 5px 5px; 
+    font-size: 12px;  
     border: 1px solid rgb(137,78,63);
-    border-radius: 15px;  /* Rounded corners */
+    border-radius: 15px;  
 }
 
 .search-icon {
@@ -84,9 +85,21 @@ body {
     top: 50%;
     right: 2px;  /* Space from the right edge */
     transform: translateY(-50%);  /* Vertically center the icon */
-    font-size: 16px;  /* Adjust icon size */
+    font-size: 16px; 
     color:rgb(137,78,63);
     pointer-events: none;  /* Prevents the icon from blocking input */
     user-select: none;
+}
+
+/*arrangement of div*/
+.right-items {
+    display: flex;
+    gap: 10px; 
+    align-items: center;
+}
+.right-items h6, .right-items .search-container, .right-items{
+    margin: 0;
+    padding: 8px;
+    font-size: 10px;
 }
   
