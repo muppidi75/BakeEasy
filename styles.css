@@ -102,4 +102,19 @@ body {
     padding: 8px;
     font-size: 10px;
 }
+/*div 4*/
+.like
+{
+    background-color:rgb(219,172,152,0.8);
+    justify-content:center;
+    align-items: center;
+    text-align:center;
+    padding:10px; 
+}
+.text-like
+{
+    font-size: 20px;
+    font-family:'Pacifico', cursive;
+    color: rgb(72, 23, 23) ;
+}
   
