@@ -3,26 +3,49 @@ body {
   padding: 0;
 }
 /*the property of the offer div*/
-.offer
-{
-  text-align:center;
+/* .offer div (fixed at the top) */
+.offer {
+  position: fixed;   /* Fix the div at the top */
+  top: 0;            /* Aligns it to the top */
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color:white; /* Optional background color */
+  text-align: center;
   color: rgb(72, 23, 23);
   font-size: 13px;
+  padding: 5px 0;   /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+  border-bottom: 1px solid rgb(72, 23, 23); /* Bottom border */
 }
-/*about and all div */
-.box
-{     
-  z-index: 1000;
-  text-align:center;
-  color: rgb(72, 23, 23);
+
+/* .box div (fixed at the top, below .offer) */
+.box {
+  position: fixed;   /* Fix the div at the top */
+  top: 50px;         /* 50px below the .offer div */
+  left: 0;
+  width: 100%;
+  background-color:white; /* Optional background color */
+  z-index: 999;     /* Ensures .box stays below .offer */
   display: flex;
-  justify-content: space-between; 
-  align-items: center;         
-  /* margin: 10px auto;  */
-  border-top: 1px solid  rgb(72, 23, 23,0.8) ; 
-  border-bottom: 1px solid  rgb(72, 23, 23,0.8);  
-           
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: rgb(72, 23, 23);
+  font-size: 13px;
+  padding:0;
+  box-sizing: border-box; /* Ensures padding is included in the width */
+  border-top: 2px solid rgb(72, 23, 23);   /* Top border */
+  border-bottom: 1px solid rgb(72, 23, 23); /* Bottom border */
 }
+
+/* Add margin or padding to the section below to avoid overlap */
+.brown {
+  margin-top: 120px; /* Add enough space to account for both .offer and .box */
+  padding: 2px;
+  height: 100px;  /* Just for demonstration, to make the page scrollable */
+}
+
 /*changes in the title bakeeasy*/
 .title
 {
