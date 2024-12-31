@@ -6,6 +6,9 @@
     border-color:rgb(244,214,215) ;
     height:auto;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100px; /* Adjust width */
+    height: 40px; /* Adjust height */
+    font-size: 18px;
 }
 .contact-submit:hover
 {
