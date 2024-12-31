@@ -170,7 +170,7 @@ body {
 }
 .location
 {
-  color: rgb(72, 23, 23) ;;
+  color: rgb(72, 23, 23) ;
 }
 
 /*food section edits*/
@@ -250,4 +250,9 @@ body {
   font-size:10px;
   display: inline-block;
   color:black;
+}
+.story
+{
+  color:rgb(72, 23, 23) ;
+  text-decoration: none;
 }
